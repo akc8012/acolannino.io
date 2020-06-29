@@ -51,16 +51,19 @@ languageCode                     = "en-us"
         icon_pack = "fab"
         html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
 
-
-# If you don't want to use the default menu, you can define one by yourself
-# [[menu.main]]
-#     name    = "Home"
-#     url     = "/"
-#     weight  = 0
-# [[menu.main]]
-#     name    = "Blog"
-#     url     = "/blog/"
-#     weight  = 1
+# TODO: this should be yeet'd when we can turn the BIG BOI TEXT into home page links
+[[menu.main]]
+    name    = "Home"
+    url     = "/"
+    weight  = 10
+[[menu.main]]
+    name    = "Blog"
+    url     = "/blog/"
+    weight  = 20
+[[menu.main]]
+    name    = "Projects"
+    url     = "/projects/"
+    weight  = 30
 
 # We only use tag as a taxonomies
 # You can add more by yourself
