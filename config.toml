@@ -1,8 +1,7 @@
 baseURL                          = "https://akc8012.github.io/acolannino.io/"  # Your domain name. Must end with "/"
+title                            = "acolannino"
 theme                            = "introduction"
 languageCode                     = "en-us"
-# disqusshortname                 = ""                       # https://gohugo.io/content-management/comments
-# googleAnalytics                 = ""                       # https://gohugo.io/templates/internal/#google-analytics
 
 [params]
     themeStyle                   = "dark"                  # Choose "light" or "dark"
@@ -16,7 +15,7 @@ languageCode                     = "en-us"
 
     # Configure the home page
     [params.home]
-        introHeight              = "fullheight"            # Input either "medium" or "large" or "fullheight"
+        introHeight              = "medium"                # Input either "medium" or "large" or "fullheight"
         showLatest               = true                    # Show latest blog post summary
         showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
         numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
