@@ -1,0 +1,20 @@
+body {
+  color: #bcbdd0;
+  background-color: #161923;
+}
+
+h1 {
+  color: #bcbdd0;
+}
+
+.subtitle, .title {
+  color: #737480
+}
+
+a, a:hover {
+  color: #2b79a2
+}
+
+a:hover {
+  text-decoration: underline;
+}
