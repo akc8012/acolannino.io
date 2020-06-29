@@ -52,6 +52,7 @@ languageCode                     = "en-us"
         html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
 
 # TODO: this should be yeet'd when we can turn the BIG BOI TEXT into home page links
+# TODO: about section
 [[menu.main]]
     name    = "Home"
     url     = "/"
