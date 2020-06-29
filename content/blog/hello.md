@@ -1,8 +1,8 @@
----
-title: "Hello"
-date: 2020-06-28T11:42:49-04:00
-draft: false
----
++++
+title = "Hello"
+date = 2020-06-28T11:42:49-04:00
+draft = false
++++
 
 # Hello!
 Hi friends.
