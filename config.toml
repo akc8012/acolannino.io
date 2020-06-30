@@ -1,4 +1,4 @@
-baseURL                          = "https://akc8012.github.io/acolannino.io/"  # Your domain name. Must end with "/"
+baseURL                          = "acolannino.io/"  # Your domain name. Must end with "/"
 title                            = "acolannino"
 theme                            = "introduction"
 languageCode                     = "en-us"
