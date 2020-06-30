@@ -34,22 +34,13 @@ languageCode                     = "en-us"
         icon  = "twitter" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
-        url   = "https://facebook.com/"
-        icon  = "facebook-f" # icon name without the 'fa-'
-        icon_pack = "fab"
-    [[params.social]]
-        url   = "https://linkedin.com/"
-        icon  = "linkedin-in" # icon name without the 'fa-'
-        icon_pack = "fab"
-    [[params.social]]
         url = "mailto:youremail@email.com"  # For a direct email link, use "mailto:test@example.org".
         icon = "paper-plane" # icon name without the 'fa-'
         icon_pack = "fas"
     [[params.social]]
-        url   = "https://mastodon.social/"
-        icon  = "mastodon" # icon name without the 'fa-'
+        url   = "https://linkedin.com/"
+        icon  = "linkedin-in" # icon name without the 'fa-'
         icon_pack = "fab"
-        html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
 
 # TODO: this should be yeet'd when we can turn the BIG BOI TEXT into home page links
 # TODO: about section
