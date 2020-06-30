@@ -53,4 +53,4 @@ All in all, I sure did have a time. The admin page still won't stop whining abou
 
 Maybe my takeaway from all this is that nobody knows how to do anything. I certainly still don't, but at least I now have a functioning home server with several gigabytes of memes loaded on.
 
-Also, if you're new to Linux / bash, I'm not sure I'd recommend this kind of endeavour. I had been using Linux on my main machines for the better part of a year, and have gotten sorta okay at using the terminal. Linux makes me smile. 
+Also, if you're new to Linux / bash, I'm not sure I'd recommend this kind of endeavour. I had been using Linux on my main machines for the better part of a year, and have gotten sorta okay at using the terminal. Linux makes me smile, and plopping into an SSH terminal and clacking away at the keyboard brings me joy, but it might not do the same for you. I dunno. 
