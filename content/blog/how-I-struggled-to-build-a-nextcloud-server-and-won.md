@@ -14,13 +14,26 @@ This isn't so much a guide or tutorial - more just me explaining the massive eff
 ### RAID 1, or whatever that means
 Here I was, all ready to go in fulfilling my long-held dream of running my own little server. Then my stupid coworker comes in, and asks "hey, what if your drive fails? what will you do then?" and ruins all of my fun. 
 
-He tells me I should do "RAID", which is apparently all the rage. RAID stands for "Redundant, Awesome... I dunno", and was invented on a whim by [some college kids in the 80's](https://en.wikipedia.org/wiki/RAID#History).
+He tells me I should do "RAID", which is apparently all the rage. RAID stands for "Redundant, Awesome... I dunno", and was invented on a whim by [some random twerps in the 80's](https://en.wikipedia.org/wiki/RAID#History).
 
-This was by far the most pain-free part of the process (the only one). I recommend doing this for fun if you're bored on a Friday evening. It's cathardic, and the only part of this process that [just worked](https://www.youtube.com/watch?v=nVqcxarP9J4).
+This was by far the most pain-free part of the process. It was the only pain-free part of the process, actually, the rest was pure suffering. I recommend doing this for fun if you're bored on a Friday evening. It's cathartic, and the only part of this process that [just worked](https://www.youtube.com/watch?v=nVqcxarP9J4).
+
+All I had to do was run some cute little commands from [this tutorial], and I was golden. I don't fully understand the intricacies of everything I was doing, and the command-line interfaces for some of these programs were absolutely wild (press w to write my drive ___? Really?), it was all smooth sailing.
+
+I bet it's something that could even 
 
 ### The installation
 Installing everything was shockingly difficult. There can't just be a little `sudo apt install nextcloud` action, no no no no no. You need to install each little bit yourself, by hand, and glue each piece together (`nextcloud` isn't even in the apt repo, of course you have to download / unpack something called a *"tarball"* yourself).
 
+#### Attempt 1: Snap!
+[Snap] is Canonical's (maker of Ubuntu) locked-down little sandbox for Linux apps. The word "container" is thrown around when describing it, and I have no idea if that's true, but I sure as heck wouldn't recommend the [official Nextcloud snap].
+
+The major selling point of Snap is that it bundles all the dependencies of an application, so it can *just work* on any distro. This sounds great! Sign me up! I'm lazy and hate installing my own dependencies! Who the heck wants to do that? Shell scripts, that's who. Problem is, this doesn't really work on every distro. In fact, it doesn't work on the latest Raspberry Pi OS. Do I know why? No. The Nextcloud Snap [failed silently](https://en.wikipedia.org/wiki/Fail-silent_system) before it could startup, and it's too shy to tell me why. Cool.
+
+#### Attempt 2: Some shell scripts I found
+At this stage, I was still committed to being a lazy jerk. There's no way in heck I would manually install [30-something php things](https://docs.nextcloud.com/server/latest/admin_manual/installation/source_installation.html#prerequisites-for-manual-installation) by hand, I simply refused. So, I found a [flashy looking site that claimed to have the scripts for me]. It didn't work. The script took multiple runs to actually complete itself, but after the 5th or so attempt, it seemed happy. I went to the web GUI, told it to "initialize", and it kinda hung out there for a while. I went to take a walk and come back and it... [screenshot]
+
+#### Attempt 3: The hard way
 This made some sense as I learned (sorta, vaguely) how Nextcloud works - It's running on a webserver directly on your machine, handling all the networking and whatnot, with a full-on SQL database and lots of PHP magic happening too. So, it's understandable that Nextcloud has to spread it's mischievous tentacles in each crevice of your pure OS install.
 
 I followed the [Nextcloud documentation](https://docs.nextcloud.com/server/latest/admin_manual/index.html), which sure does exist. In their defense, all of their software is [free and open](https://en.wikipedia.org/wiki/Free_and_open-source_software), including the docs, so I could have submitted any number of changes, and yet here I am selfishly writing this blog.
@@ -36,3 +49,5 @@ This is clearly absurd, and I hate it. Hardware is bad, and everyone saying "pro
 All in all, I sure did have a time. The admin page still won't stop whining about a "PHP memory limit". I don't even know what that means. If PHP is running out of memory, I wish it would just ask the OS for more. Really I don't mind, I've got plenty. For most things I find baffling, I think to myself "hey, they probably had a good reason for doing it this way", but as I read more about the [haphazard history of PHP](https://en.wikipedia.org/wiki/PHP#Early_history), I decided to change my mind. *"I have absolutely no idea how to write a programming language"*, said the writer of the PHP programming language.
 
 Maybe my takeaway from all this is that nobody knows how to do anything. I certainly still don't, but at least I now have a functioning home server with several gigabytes of memes loaded on.
+
+Also, if you're new to Linux / bash, I'm not sure I'd recommend this kind of endeavour. I had been using Linux on my main machines for the better part of a year, and have gotten sorta okay at using the terminal. Linux makes me smile. 
