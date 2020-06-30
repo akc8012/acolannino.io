@@ -1,6 +1,6 @@
-+++
-title = "acolannino"
-headless = true
-+++
+---
+title: "acolannino"
+headless: true
+---
 
-Andrew Colannino's blog and projects
+Andrew Colannino's dumb blog and bad projects
