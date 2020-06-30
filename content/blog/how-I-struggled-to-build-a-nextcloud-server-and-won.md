@@ -4,17 +4,20 @@ date: 2020-06-28T23:36:18-04:00
 draft: true
 ---
 
-### Why (am I going through with all of this)?
+### Why am I doing this to myself?
 I figured, if *I* have to struggle, I may as well invite others onto the struggle-bus as well.
 
 I really like taking notes. Notes are an extension of my stupid brain, which can't remember a *damn* thing on its own. All these notes were being stored on Google's servers, which [doesn't](https://en.wikipedia.org/wiki/PRISM_(surveillance_program)) [seem like](https://www.gnu.org/proprietary/malware-google.en.html) [the best](https://www.washingtonpost.com/technology/2019/06/21/google-chrome-has-become-surveillance-software-its-time-switch/) [idea](https://www.eff.org/deeplinks/2020/03/google-says-it-doesnt-sell-your-data-heres-how-company-shares-monetizes-and).
 
 This isn't so much a guide or tutorial - more just me explaining the massive effort it took to set this damn thing up. I hope somebody someday learns something from my suffering, or is maybe just entertained.
 
+### The hardware
+Hardware is bad and I hate it, more on this later. 
+
 ### RAID 1, or whatever that means
 Here I was, all ready to go in fulfilling my long-held dream of running my own little server. Then my stupid coworker comes in, and asks "hey, what if your drive fails? what will you do then?" and ruins all of my fun. 
 
-He tells me I should do "RAID", which is apparently all the rage. RAID stands for "Redundant, Awesome... I dunno", and was invented on a whim by [some random twerps in the 80's](https://en.wikipedia.org/wiki/RAID#History).
+He tells me I should do "RAID", which is apparently all the rage. RAID stands for "Redundant, Awesome... I dunno", and was invented on a whim by [some random nerds in the 80's](https://en.wikipedia.org/wiki/RAID#History).
 
 This was by far the most pain-free part of the process. It was the only pain-free part of the process, actually, the rest was pure suffering. I recommend doing this for fun if you're bored on a Friday evening. It's cathartic, and the only part of this process that [just worked](https://www.youtube.com/watch?v=nVqcxarP9J4).
 
@@ -26,12 +29,12 @@ I bet it's something that could even
 Installing everything was shockingly difficult. There can't just be a little `sudo apt install nextcloud` action, no no no no no. You need to install each little bit yourself, by hand, and glue each piece together (`nextcloud` isn't even in the apt repo, of course you have to download / unpack something called a *"tarball"* yourself).
 
 #### Attempt 1: Snap!
-[Snap] is Canonical's (maker of Ubuntu) locked-down little sandbox for Linux apps. The word "container" is thrown around when describing it, and I have no idea if that's true, but I sure as heck wouldn't recommend the [official Nextcloud snap].
+[Snap](https://snapcraft.io/) is Canonical's (maker of Ubuntu) locked-down little sandbox for Linux apps. The word "container" is thrown around when describing it, and I have no idea if that's true, but I sure as heck wouldn't recommend the [official Nextcloud snap](https://snapcraft.io/nextcloud).
 
-The major selling point of Snap is that it bundles all the dependencies of an application, so it can *just work* on any distro. This sounds great! Sign me up! I'm lazy and hate installing my own dependencies! Who the heck wants to do that? Shell scripts, that's who. Problem is, this doesn't really work on every distro. In fact, it doesn't work on the latest Raspberry Pi OS. Do I know why? No. The Nextcloud Snap [failed silently](https://en.wikipedia.org/wiki/Fail-silent_system) before it could startup, and it's too shy to tell me why. Cool.
+The major selling point of snap is that it bundles all the dependencies of an application, so it can *just work* on any distro. This sounds great! Sign me up! I'm lazy and hate installing my own dependencies! Who the heck wants to do that? Shell scripts, that's who. Problem is, this doesn't really work on every distro. In fact, it doesn't work on the latest Raspberry Pi OS. Do I know why? No. The Nextcloud snap [failed silently](https://en.wikipedia.org/wiki/Fail-silent_system) before it could startup, and it's too shy to tell me why. Cool.
 
 #### Attempt 2: Some shell scripts I found
-At this stage, I was still committed to being a lazy jerk. There's no way in heck I would manually install [30-something php things](https://docs.nextcloud.com/server/latest/admin_manual/installation/source_installation.html#prerequisites-for-manual-installation) by hand, I simply refused. So, I found a [flashy looking site that claimed to have the scripts for me]. It didn't work. The script took multiple runs to actually complete itself, but after the 5th or so attempt, it seemed happy. I went to the web GUI, told it to "initialize", and it kinda hung out there for a while. I went to take a walk and come back and it... [screenshot]
+At this stage, I was still committed to being a lazy jerk. There's no way in heck I would manually install [30-something php modules](https://docs.nextcloud.com/server/latest/admin_manual/installation/source_installation.html#prerequisites-for-manual-installation) by hand, I simply refused. So, I found a [flashy looking site that claimed to have the scripts for me](https://ownyourbits.com/nextcloudpi/). It didn't work. The script took multiple runs to actually complete itself, and after the 5th or so attempt, it seemed happy. I went to the web GUI, told it to "initialize", and it kinda hung out there for a while. I went to take a walk and come back and it... [screenshot]
 
 #### Attempt 3: The hard way
 This made some sense as I learned (sorta, vaguely) how Nextcloud works - It's running on a webserver directly on your machine, handling all the networking and whatnot, with a full-on SQL database and lots of PHP magic happening too. So, it's understandable that Nextcloud has to spread it's mischievous tentacles in each crevice of your pure OS install.
