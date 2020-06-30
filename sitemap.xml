@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>acolannino.io/blog/</loc>
+    <loc>http://acolannino.io/blog/</loc>
     <lastmod>2020-06-28T11:42:49-04:00</lastmod>
   </url>
   
   <url>
-    <loc>acolannino.io/projects/</loc>
+    <loc>http://acolannino.io/projects/</loc>
   </url>
   
   <url>
-    <loc>acolannino.io/</loc>
+    <loc>http://acolannino.io/</loc>
     <lastmod>2020-06-28T11:42:49-04:00</lastmod>
   </url>
   
   <url>
-    <loc>acolannino.io/blog/hello/</loc>
+    <loc>http://acolannino.io/blog/hello/</loc>
     <lastmod>2020-06-28T11:42:49-04:00</lastmod>
   </url>
   
   <url>
-    <loc>acolannino.io/tags/</loc>
+    <loc>http://acolannino.io/tags/</loc>
   </url>
   
 </urlset>

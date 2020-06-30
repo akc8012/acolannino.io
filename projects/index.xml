@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on acolannino</title>
-    <link>acolannino.io/projects/</link>
+    <link>http://acolannino.io/projects/</link>
     <description>Recent content in Projects on acolannino</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="acolannino.io/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://acolannino.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

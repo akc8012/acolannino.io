@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>acolannino</title>
-    <link>acolannino.io/</link>
+    <link>http://acolannino.io/</link>
     <description>Recent content on acolannino</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jun 2020 11:42:49 -0400</lastBuildDate>
     
-	<atom:link href="acolannino.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://acolannino.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello</title>
-      <link>acolannino.io/blog/hello/</link>
+      <link>http://acolannino.io/blog/hello/</link>
       <pubDate>Sun, 28 Jun 2020 11:42:49 -0400</pubDate>
       
-      <guid>acolannino.io/blog/hello/</guid>
+      <guid>http://acolannino.io/blog/hello/</guid>
       <description>Hello! Hi friends.
 This is BLAZINGLY fast.
 Jelly beans gummies gingerbread liquorice liquorice brownie icing candy canes. Gummi bears danish halvah gummies ice cream chocolate cake. Bear claw jelly marzipan halvah ice cream candy canes bear claw lemon drops topping. Dragée soufflé cotton candy candy carrot cake. Lemon drops liquorice tart gummi bears topping jelly beans sweet roll jujubes. Carrot cake pastry cookie carrot cake chocolate bar jelly brownie biscuit. Cheesecake soufflé cheesecake cotton candy cookie.</description>
