@@ -17,7 +17,9 @@ Hardware is bad and I hate it, more on this later.
 ### RAID 1, or whatever that means
 Here I was, all ready to go in fulfilling my long-held dream of running my own little server. Then my stupid coworker comes in, and asks "hey, what if your drive fails? what will you do then?" and ruins all of my fun. 
 
-He tells me I should do "RAID", which is apparently all the rage. RAID stands for "Redundant, Awesome... I dunno", and was invented on a whim by [some random nerds in the 80's](https://en.wikipedia.org/wiki/RAID#History).
+He tells me I should do "RAID", which is apparently all the rage. RAID stands for "Redundant, Awesome... I dunno", and was invented on a whim by [some random nerds in the 80's](https://en.wikipedia.org/wiki/RAID#History). To attempt to give an actual explanation: Using a RAID 1 setup gives me disk redundancy by constantly mirroring each drive. If one drive craps out, the other drive still has all the same data, so you just replace the other drive and go about your day as normal. The downside of RAID 1 is you're getting half the storage capacity as you paid for, but I figured 1 terabyte was large enough to store plenty of memes.
+
+As a guide, I followed [this great article from a Pi magazine](https://magpi.raspberrypi.org/articles/build-a-raspberry-pi-nas). If you're wondering what hardware I used, check that guide. I copied it exactly, and didn't about being creative. Plus, c'mon, look how cute it looks all stacked up like that! A literal "stack"! Ha!
 
 This was by far the most pain-free part of the process. It was the only pain-free part of the process, actually, the rest was pure suffering. I recommend doing this for fun if you're bored on a Friday evening. It's cathartic, and the only part of this process that [just worked](https://www.youtube.com/watch?v=nVqcxarP9J4).
 
@@ -26,7 +28,7 @@ All I had to do was run some cute little commands from [this tutorial], and I wa
 I bet it's something that could even 
 
 ### The installation
-Installing everything was shockingly difficult. There can't just be a little `sudo apt install nextcloud` action, no no no no no. You need to install each little bit yourself, by hand, and glue each piece together (`nextcloud` isn't even in the apt repo, of course you have to download / unpack something called a *"tarball"* yourself).
+Installing everything was shockingly difficult. There can't just be a little `sudo apt install nextcloud` action, no no no no no. You need to install each little bit yourself, by hand, and glue each piece together (`nextcloud` isn't even in the apt repo, of course you have to download / unpack something called a "tarball" yourself).
 
 #### Attempt 1: Snap!
 [Snap](https://snapcraft.io/) is Canonical's (maker of Ubuntu) locked-down little sandbox for Linux apps. The word "container" is thrown around when describing it, and I have no idea if that's true, but I sure as heck wouldn't recommend the [official Nextcloud snap](https://snapcraft.io/nextcloud).
