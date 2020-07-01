@@ -12,14 +12,14 @@ I really like taking notes. Notes are an extension of my stupid brain, which can
 This isn't so much a guide or tutorial - more just me explaining the massive effort it took to set this damn thing up. I hope somebody someday learns something from my suffering, or is maybe just entertained.
 
 ### The hardware
-Hardware is bad and I hate it, more on this later. 
+I had been interested in doing *something, anything at all*, with a [Raspberry Pi](https://www.raspberrypi.org/) for a while, so this was my excuse. Beyond that, I just followed [this great article from a Pi magazine](https://magpi.raspberrypi.org/articles/build-a-raspberry-pi-nas) for my hardware choices. If you're wondering what hardware I used, look there. I copied it exactly. Plus, c'mon, look how cute everything looks stacked up like that! A literal "stack"! Ha!
+
+One part the guide doesn't explain very well was the "USB powered hub" - both why you need one, and what that actually is. Is it a hub powered by USB? A USB powered by a "hub"? What is a "hub"? Maybe it seems obvious to you, and maybe I was just sleep deprived at the time, but I had trouble wrapping my smooth brain around this concept. Turns out, the USB hub is simply needed to provide power to the two hard drives, rather than the power going to the Pi *and* the drives. I have no idea if this really is necessary, but it makes me feel 10% more confident my drives won't crap out at any moment, and that helps me go to sleep.
 
 ### RAID 1, or whatever that means
 Here I was, all ready to go in fulfilling my long-held dream of running my own little server. Then my stupid coworker comes in, and asks "hey, what if your drive fails? what will you do then?" and ruins all of my fun. 
 
 He tells me I should do "RAID", which is apparently all the rage. RAID stands for "Redundant, Awesome... I dunno", and was invented on a whim by [some random nerds in the 80's](https://en.wikipedia.org/wiki/RAID#History). To attempt to give an actual explanation: Using a RAID 1 setup gives me disk redundancy by constantly mirroring each drive. If one drive craps out, the other drive still has all the same data, so you just replace the other drive and go about your day as normal. The downside of RAID 1 is you're getting half the storage capacity as you paid for, but I figured 1 terabyte was large enough to store plenty of memes.
-
-As a guide, I followed [this great article from a Pi magazine](https://magpi.raspberrypi.org/articles/build-a-raspberry-pi-nas). If you're wondering what hardware I used, check that guide. I copied it exactly, and didn't about being creative. Plus, c'mon, look how cute it looks all stacked up like that! A literal "stack"! Ha!
 
 This was by far the most pain-free part of the process. It was the only pain-free part of the process, actually, the rest was pure suffering. I recommend doing this for fun if you're bored on a Friday evening. It's cathartic, and the only part of this process that [just worked](https://www.youtube.com/watch?v=nVqcxarP9J4).
 
@@ -48,7 +48,9 @@ So here I am, all ___ and happy with my brand new Raspberry Pi running a fresh ~
 
 I do some more digging, and find what I believe to be the truth (or, as close to any of us mere mortals will ever get to a truth). There appears to be a [widely reported problem with the Pi 4](https://www.raspberrypi.org/forums/viewtopic.php?t=247982) where the signals coming out from the HDMI (which are shaped like squares?) are the same frequency(?) as the WiFi. So, if your display resolution is pumped up high enough, and that HDMI is cranking out lots of square signals, [the WiFi gets totally borked](https://www.raspberrypi.org/forums/viewtopic.php?p=1514642&sid=b811be4b798c7ab50d7626c691b5cc26#p1514642). Neat.
 
-This is clearly absurd, and I hate it. Hardware is bad, and everyone saying "programmers gotta learn hardware too!!!" should get off my lawn. 
+This is clearly absurd, and I hate it. Hardware is bad, and everyone saying "programmers gotta learn hardware too!!!" should get off my lawn. At first I started following the internet's advice of simply "lower your screen resolution so your wifi goes fast", but this became tiring on the eyes (especially since you [can't run a blue light filter like redshift on the Pi]).
+
+Even though I was reluctant to it at first, eventually I started controlling my Pi via an SSH terminal from my other machines. Boy oh boy, was this a joyful discovery. No longer was I stuck to whatever stupid resolution the wifi demanded, but I could also use my favorite blue light filter to prevent my retinas from burning up. Sure, I had no GUI, but learning to do everything through the terminal came easily enough, and once I got there, I felt like some kind of computer wizard.
 
 ### Conclusion
 All in all, I sure did have a time. The admin page still won't stop whining about a "PHP memory limit". I don't even know what that means. If PHP is running out of memory, I wish it would just ask the OS for more. Really I don't mind, I've got plenty. For most things I find baffling, I think to myself "hey, they probably had a good reason for doing it this way", but as I read more about the [haphazard history of PHP](https://en.wikipedia.org/wiki/PHP#Early_history), I decided to change my mind. *"I have absolutely no idea how to write a programming language"*, said the writer of the PHP programming language.
