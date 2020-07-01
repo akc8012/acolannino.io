@@ -6,20 +6,19 @@
     <description>Recent content in Blog on acolannino</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jun 2020 11:42:49 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://acolannino.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello</title>
-      <link>http://acolannino.io/blog/hello/</link>
-      <pubDate>Sun, 28 Jun 2020 11:42:49 -0400</pubDate>
+      <title>How I struggled to build a Nextcloud server (and won!)</title>
+      <link>http://acolannino.io/blog/how-i-struggled-to-build-a-nextcloud-server-and-won/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://acolannino.io/blog/hello/</guid>
-      <description>Hello! Hi friends.
-This is BLAZINGLY fast.
-Jelly beans gummies gingerbread liquorice liquorice brownie icing candy canes. Gummi bears danish halvah gummies ice cream chocolate cake. Bear claw jelly marzipan halvah ice cream candy canes bear claw lemon drops topping. Dragée soufflé cotton candy candy carrot cake. Lemon drops liquorice tart gummi bears topping jelly beans sweet roll jujubes. Carrot cake pastry cookie carrot cake chocolate bar jelly brownie biscuit. Cheesecake soufflé cheesecake cotton candy cookie.</description>
+      <guid>http://acolannino.io/blog/how-i-struggled-to-build-a-nextcloud-server-and-won/</guid>
+      <description>Why am I doing this to myself? I really like taking notes. Notes are an extension of my stupid brain, which can&amp;rsquo;t remember a damn thing on its own. All these notes were being stored on Google&amp;rsquo;s servers, which didn&amp;rsquo;t seem like the best idea. And it wasn&amp;rsquo;t just notes. Pictures, videos, miscellaneous files, I was giving it all to Google for free.
+Since my notes contain my bad ideas, and they are my bad ideas alone, I wanted to take back control of my data.</description>
     </item>
     
   </channel>
