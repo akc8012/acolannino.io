@@ -4,6 +4,7 @@ theme                            = "introduction"
 languageCode                     = "en-us"
 
 [params]
+    tagline                      = "Andrew Colannino's dumb blog and bad projects"
     themeStyle                   = "dark"                  # Choose "light" or "dark"
     favicon                      = "/img/fav.ico"          # Path to favicon file
     showRSSButton                = false                   # Show rss button in navigation
