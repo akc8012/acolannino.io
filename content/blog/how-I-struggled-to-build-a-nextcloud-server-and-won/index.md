@@ -1,7 +1,7 @@
 ---
 title: "How I struggled to build a Nextcloud server (and won!)"
 date: 2020-06-30
-draft: true
+draft: false
 ---
 
 ### Why am I doing this to myself?
