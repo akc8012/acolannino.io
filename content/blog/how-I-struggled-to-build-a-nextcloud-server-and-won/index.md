@@ -18,6 +18,8 @@ This isn't so much a guide or tutorial - more just me explaining (and venting ab
 ### The hardware
 I had been interested in doing *something, anything at all*, with a [Raspberry Pi](https://www.raspberrypi.org/) for a while, so this was my excuse. Beyond that, I just followed [this great article from a Pi magazine](https://magpi.raspberrypi.org/articles/build-a-raspberry-pi-nas) for my hardware choices. If you're wondering what hardware I used, look there. I copied it exactly. Plus, c'mon, look how cute everything looks stacked up like that! A literal "stack"! Ha!
 
+![nextbox](nextbox.png)
+
 One part the guide doesn't explain very well was the "USB powered hub" - both why you need one, and what that actually is. Is it a hub powered by USB? A USB powered by a "hub"? What is a "hub"? Maybe it seems obvious to you, and maybe I was just sleep deprived at the time, but I was having trouble wrapping my smooth brain around this concept.
 
 Turns out, the USB hub is simply needed to provide power to the two hard drives, rather than the power going to the Pi *and* the drives. I have no idea if this was really necessary, but it makes me feel 10% more confident my drives won't crap out at any moment, and that helps me go to sleep at night.
