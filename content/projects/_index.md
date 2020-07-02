@@ -3,4 +3,4 @@ title = "Projects"
 weight = 20
 +++
 
-Here is some introduction text for my projects. You can set this text in the `/projects/_index.md` file. This page uses the `/layouts/projects/list.html` template.
+I'll fill this part out eventually, I promise. In the meantime, check out [andgames.co](http://andgames.co) (my old site) for some of my projects.
