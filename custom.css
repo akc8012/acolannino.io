@@ -1,20 +1,19 @@
-body {
+body, h1, .bold-title {
   color: #bcbdd0;
-  background-color: #161923;
 }
 
-h1 {
-  color: #bcbdd0;
+body {
+  background-color: #161923;
 }
 
 .subtitle, .title {
   color: #737480
 }
 
-a, a:hover, a:active {
+a, a:active {
   color: #2b79a2
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #f4f1bb; /* taken from $secondary in _dark-variables.sass */
 }
