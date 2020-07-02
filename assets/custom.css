@@ -4,16 +4,21 @@ body, h1, .bold-title {
 
 body {
   background-color: #161923;
+  font-size: 1.08rem;
 }
 
 .subtitle, .title {
-  color: #737480
+  color: #737480;
 }
 
 a, a:active {
-  color: #2b79a2
+  color: #2b79a2;
 }
 
 a:hover {
   color: #f4f1bb; /* taken from $secondary in _dark-variables.sass */
+}
+
+.section {
+  padding: 3rem 1rem;
 }
