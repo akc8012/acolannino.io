@@ -51,17 +51,13 @@ languageCode                     = "en-us"
 
 # TODO: about section
 [[menu.main]]
-    name    = "Home"
-    url     = "/"
-    weight  = 10
-[[menu.main]]
     name    = "Blog"
     url     = "/blog/"
-    weight  = 20
+    weight  = 10
 [[menu.main]]
     name    = "Projects"
     url     = "/projects/"
-    weight  = 30
+    weight  = 20
 
 # We only use tag as a taxonomies
 # You can add more by yourself
