@@ -5,6 +5,8 @@ languageCode                     = "en-us"
 
 [params]
     tagline                      = "Andrew Colannino's dumb blog and bad projects"
+    footerText                   = "This website is [free software](https://en.wikipedia.org/wiki/Free_software), and its source is available on [GitHub](https://github.com/akc8012/acolannino.io)."
+
     themeStyle                   = "dark"                  # Choose "light" or "dark"
     favicon                      = "/img/fav.ico"          # Path to favicon file
     showRSSButton                = false                   # Show rss button in navigation
