@@ -5,6 +5,8 @@ languageCode                     = "en-us"
 
 [params]
     tagline                      = "Andrew Colannino's dumb blog and bad projects"
+    footerText                   = "This website is [free software](https://en.wikipedia.org/wiki/Free_software), and its source is available on [GitHub](https://github.com/akc8012/acolannino.io)."
+
     themeStyle                   = "dark"                  # Choose "light" or "dark"
     favicon                      = "/img/fav.ico"          # Path to favicon file
     showRSSButton                = false                   # Show rss button in navigation
@@ -48,18 +50,18 @@ languageCode                     = "en-us"
         icon_pack = "fab"
 
 # TODO: about section
-# [[menu.main]]
-#     name    = "Home"
-#     url     = "/"
-#     weight  = 10
-# [[menu.main]]
-#     name    = "Blog"
-#     url     = "/blog/"
-#     weight  = 20
-# [[menu.main]]
-#     name    = "Projects"
-#     url     = "/projects/"
-#     weight  = 30
+[[menu.main]]
+    name    = "Home"
+    url     = "/"
+    weight  = 10
+[[menu.main]]
+    name    = "Blog"
+    url     = "/blog/"
+    weight  = 20
+[[menu.main]]
+    name    = "Projects"
+    url     = "/projects/"
+    weight  = 30
 
 # We only use tag as a taxonomies
 # You can add more by yourself
