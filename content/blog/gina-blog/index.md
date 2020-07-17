@@ -24,7 +24,7 @@ This is an obviously bad idea, especially with the rest of the country still flo
 ### TypeScript is good and you should use it
 When harassing your local government: type-safety is of utmost importance.
 
-I shouldn't need to espouse the virtues of TypeScript to you by now. You've undoubtedly [seen] [a trillion] [articles] with the exact same premise. I'll just ask... If you're not using TypeScript in 2020: What's wrong with you?
+I shouldn't need to espouse the virtues of TypeScript to you by now. You've undoubtedly [seen](https://slack.engineering/typescript-at-slack-a81307fa288d) [a trillion](https://www.reddit.com/r/typescript/comments/aofcik/38_of_bugs_at_airbnb_could_have_been_prevented_by/) [articles](https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164) with the exact same premise. I'll just ask... If you're not using TypeScript in 2020: What's wrong with you?
 
 Some say that TypeScript is only good for large "projects that scale", including Microsoft themselves. I say that this is baloney. TypeScript is good for *any* size project. Want to print "hello world" and be done with it? Use TypeScript. I'm serious.
 
