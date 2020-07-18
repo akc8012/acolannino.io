@@ -28,9 +28,9 @@ I shouldn't need to espouse the virtues of TypeScript to you by now. You've undo
 
 Some say that TypeScript is only good for large "projects that scale", including Microsoft themselves. I say that this is baloney. TypeScript is good for *any* size project. Want to print "hello world" and be done with it? Use TypeScript. I'm serious.
 
-To give a really short explanation of what this even is: TypeScript is a *"typed superset"* of JavaScript. That's an overly complex way of saying that **all JavaScript programs *are also* TypeScript programs**. TypeScript is not a magical new language. It is some really nice features and keywords slathered over JavaScript, that, in my opinion, essentially "fix" the language and make me want to use it.
+To give a short explanation of what this even is: TypeScript is a *"typed superset"* of JavaScript. That's an overly complex way of saying that **all JavaScript programs *are also* TypeScript programs**. TypeScript is not a magical new language. It is just some really nice features and keywords slathered over JavaScript that, in my opinion, essentially "fix" the language and make me want to use it.
 
-The biggest and boldest benefit of using TypeScript is the full [intellisense](https://en.wikipedia.org/wiki/Intelligent_code_completion#IntelliSense) you get inside of the [VS Code](https://code.visualstudio.com/) editor. Intellisense is like autocomplete on your phone, except that it works. It brings the coding experience much closer to C#. This is unlike JavaScript, which often feels like coding in feedback-less empty and silent bottomless hole of despair and doom. 
+The biggest and boldest benefit of using TypeScript is the full [intellisense](https://en.wikipedia.org/wiki/Intelligent_code_completion#IntelliSense) you get inside of the [VS Code](https://code.visualstudio.com/) editor. Intellisense is like autocomplete on your phone, except that it works. It brings the coding experience much closer to C#, in that methods actually *tell you* what the hell they want, and the editor will screech if there's a problem. This is unlike JavaScript, which often feels like coding in feedback-less empty and silent bottomless hole of despair and doom. 
 
 *"The only people who don't like TypeScript are the people who haven't tried it yet!"* - me, 2020
 
@@ -47,3 +47,10 @@ My point with this big long anecdote is: Fight for the technology that you think
 
 
 #### Going nuts with it and doing whatever - Why I'm using **Preact** instead of **React**
+Preact will not work on your grannies web browser. Sorry granny. Apologies to all the granny's reading my dev blog! Also less cruft.
+
+#### yarn good, npm bad
+I'm using the yarn command-line tool, instead of the more popular npm. I'd really like to ask you all, [why are you still using npm in 2020](https://iamturns.com/yarn-vs-npm-2018/)? Yarn has a much more pleasant-looking CLI (command-line interface), and to me, still feels faster than npm. Yes, it's maintained by Facebook, a [very] *[not] [good]* company. But guess what? [npm] is owned by Microsoft now, and they are also an organization that will burn in the [corporate] [version] [of hell]. In the year 2020, all your fav CLI tools are evil. Congrats!
+
+![sonic](sonic.jpg)
+
