@@ -6,10 +6,23 @@
     <description>Recent content on acolannino</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://acolannino.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to harass your elected officials using TypeScript</title>
+      <link>http://acolannino.io/blog/how-to-harass-your-elected-officials-using-typescript/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://acolannino.io/blog/how-to-harass-your-elected-officials-using-typescript/</guid>
+      <description>Folks
+Friends
+Fellas and fellettes
+As you all know, it&amp;rsquo;s apocalypse season. Now more than ever, in times like these, in uncertain times, and in hard times - We all need to come together and harass our elected officials.
+The US response to COVID-19 has been an abject failure, at each and every level of government. This is not controversial or interesting or technical, so I&amp;rsquo;m not going to write further about it.</description>
+    </item>
     
     <item>
       <title>How I struggled to build a Nextcloud server (and won!)</title>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<title>
+How to Harass Your Elected Officials Using Type Script - acolannino
+</title>
+
+
+
+        <meta property="og:title" content="How to harass your elected officials using TypeScript - acolannino" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content=""/>
+<meta property="og:url" content="http://acolannino.io/blog/how-to-harass-your-elected-officials-using-typescript/"/>
+<meta property="og:site_name" content="acolannino"/>
+
+
+
+<meta property="og:image" content="http://acolannino.io/blog/how-to-harass-your-elected-officials-using-typescript/gina-app.gif"/>
+
+<meta property="og:image" content="http://acolannino.io/blog/how-to-harass-your-elected-officials-using-typescript/sonic.jpg"/>
+
+
+
+        
+<link rel="shortcut icon" href="/img/fav.ico">
+
+
+        
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.ca6ff4eea1a8b41edacc2e1cec4886f5ea76b852d206bb45ce11b3139b9cbb7e.css" integrity="sha256-ym/07qGotB7azC4c7EiG9ep2uFLSBrtFzhGzE5ucu34=" crossorigin="anonymous" media="screen">
+
+
+
+
+    <link rel="stylesheet" href="/custom.css" integrity="" crossorigin="anonymous" media="screen">
+
+        
+        
+        
+        
+    </head>
+    <body>
+        <section id="top" class="section">
+            
+            <div class="container hero ">
+                
+
+<a href="/" class="bold-title is-1">acolannino</a>
+<div class="subtitle">Andrew Colannino&#39;s dumb blog and bad projects</div>
+
+
+            </div>
+            
+            <div class="section ">
+                
+<div class="container">
+    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu " id="navMenu">
+            
+            
+            
+            
+            <a class="navbar-item" href="/blog/">
+                
+                Blog
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/projects/">
+                
+                Projects
+                
+            </a>
+            
+            
+            
+        </div>
+    </nav>
+    <hr>
+</div>
+
+
+
+                
+<div class="container">
+    <h2 class="title is-1 top-pad strong-post-title">
+        <a href="http://acolannino.io/blog/how-to-harass-your-elected-officials-using-typescript/">How to harass your elected officials using TypeScript</a>
+    </h2>
+    <div class="post-data">
+        Jul 18, 2020 |
+        10 minutes read
+    </div>
+    
+    
+</div>
+
+<div class="container markdown top-pad">
+    <p>Folks</p>
+<p>Friends</p>
+<p>Fellas and fellettes</p>
+<p>As you all know, it&rsquo;s apocalypse season. Now more than ever, in times like these, in uncertain times, and in hard times - We all need to come together and harass our elected officials.</p>
+<p>The US response to COVID-19 has been an abject failure, at each and every level of government. This is not controversial or interesting or technical, so I&rsquo;m not going to write further about it.</p>
+<p>Instead, lets shift focus to <a href="https://twitter.com/govraimondo" target="_blank" rel="noreferrer noopener">Gina Raimondo</a>, and how I&rsquo;ve made it my quarantine mission to bother her. You see, <a href="https://www.facebook.com/GinaMRaimondo" target="_blank" rel="noreferrer noopener">Gina</a> is the leader of the small state of Rhode Island. Rhode Island fits into my internet narrative because, for at least one point in time, it had <a href="https://www.nbc-2.com/story/42302778/connecticut-rhode-island-only-two-states-reporting-decline-in-new-covid19-cases" target="_blank" rel="noreferrer noopener">record low COVID numbers</a>, relative to the rest of the country. It had succeeded in flattening the curve.</p>
+<p>Enter <a href="https://www.youtube.com/user/GinaRaimondo" target="_blank" rel="noreferrer noopener">Gina Raimondo</a>. Gina saw these numbers, and thought they looked great. I agree Gina! Great numbers! On July 4th however, Gina decided to get bold, and started initiating <a href="https://www.ri.gov/press/view/38720" target="_blank" rel="noreferrer noopener"><strong>&ldquo;Phase 3&rdquo;</strong></a> or whatever the hell. This phase can basically be translated into <em>&ldquo;hooray, corona times are over! party time!!!!!</em> 🥳&rdquo;</p>
+<p>This is an obviously bad idea, especially with the rest of the country still floundering around in the COVID swamp like fools. I&rsquo;ve been pretty frustrated by Gina&rsquo;s actions and statements, so I tried channeling that into something <em>&ldquo;productive&rdquo;</em>(?) with my <a href="https://corona-gina.app/" target="_blank" rel="noreferrer noopener">dumb web app</a>. It&rsquo;s an expression of my anger and pure bewilderment of this government, and I had fun making it. Let&rsquo;s talk about how I did it.</p>
+<p><a href="https://corona-gina.app/" target="_blank" rel="noreferrer noopener"><img src="gina-app.gif" alt="gina-app"></a></p>
+<h3 id="typescript-is-good-and-you-should-use-it">TypeScript is good and you should use it</h3>
+<p>When harassing your local government: type-safety is of utmost importance.</p>
+<p>I shouldn&rsquo;t need to espouse the virtues of TypeScript to you by now. You&rsquo;ve undoubtedly <a href="https://slack.engineering/typescript-at-slack-a81307fa288d" target="_blank" rel="noreferrer noopener">seen</a> <a href="https://www.reddit.com/r/typescript/comments/aofcik/38_of_bugs_at_airbnb_could_have_been_prevented_by/" target="_blank" rel="noreferrer noopener">a trillion</a> <a href="https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164" target="_blank" rel="noreferrer noopener">articles</a> with the exact same premise. I&rsquo;ll just ask&hellip; If you&rsquo;re not using TypeScript in 2020: What&rsquo;s wrong with you?</p>
+<p>Some say that TypeScript is only good for large &ldquo;projects that scale&rdquo;, including Microsoft themselves. I say that this is baloney. TypeScript is good for <em>any</em> size project. Want to print &ldquo;hello world&rdquo; and be done with it? Use TypeScript. I&rsquo;m serious.</p>
+<p>To give a short explanation of what this even is: TypeScript is a <em>&ldquo;typed superset&rdquo;</em> of JavaScript. That&rsquo;s an overly complex way of saying that <strong>all JavaScript programs <em>are also</em> TypeScript programs</strong>. TypeScript is not a magical new language. It is just some really nice features and keywords slathered over JavaScript that, in my opinion, essentially &ldquo;fix&rdquo; the language and make me want to use it.</p>
+<p>The biggest and boldest benefit of using TypeScript is the full <a href="https://en.wikipedia.org/wiki/Intelligent_code_completion#IntelliSense" target="_blank" rel="noreferrer noopener">intellisense</a> you get inside of the <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer noopener">VS Code</a> editor. Intellisense is like autocomplete on your phone, except that it works. It brings the coding experience much closer to C#, in that methods actually <em>tell you</em> what the hell they want, and the editor will screech if there&rsquo;s a problem. This is unlike JavaScript, which often feels like coding in a feedback-less empty and silent bottomless hole of despair and doom.</p>
+<p><em>&ldquo;The only people who don&rsquo;t like TypeScript are the people who haven&rsquo;t tried it yet!&quot;</em> - me, 2020</p>
+<h4 id="a-case-study-in-bad-corporate-decision-making">A case study in bad corporate decision-making</h4>
+<p>Not everyone shares my beliefs. Pretend, for the sake of argument, that you are a high-level executive at a leading fintech company. A team of smart people in this company do some research for their next project, and decide to use TypeScript as their language of choice. Neat! I am very in favor of this, and so are the higher-ups who approved this team&rsquo;s choice. They start developing the app in TypeScript, enjoying the freedom and simplicity.</p>
+<p>Enter the TypeScript-hating executive. This executive is not afraid to make his case against TypeScript to each and every engineer of the company. He does just this in a large conference call. His reasoning for why the team <strong>must</strong> switch back to plain JavaScript <strong>immediately</strong> are:</p>
+<ol>
+<li>If you can&rsquo;t learn JavaScript you&rsquo;re bad and shouldn&rsquo;t be hired</li>
+<li>Something something extra build-pipeline steps</li>
+</ol>
+<p>Even though they did half the project in TypeScript, they were forced to strip away all their types. This story is, to me, a great tragedy, much sadder than whatever garbage Shakespeare ever put out. It genuinely upsets me that - because <strong>one</strong> high-up dude had a biased and incorrect understanding of a technology - a team had to stop what they were doing and make their software actively worse halfway through development.</p>
+<p>My point with this big long anecdote is: Fight for the technology that you think is best. In this case, the people in this story <em>did</em> fight to use TypeScript, and still lost. Management sided with the executive here, and that&rsquo;s a shame. Thankfully for me however, my bad web app is a purely personal project, so I can just go nuts with it and do whatever.</p>
+<h3 id="going-nuts-with-it-and-doing-whatever---why-im-using-preact-instead-of-react">Going nuts with it and doing whatever - Why I&rsquo;m using <strong>Preact</strong> instead of <strong>React</strong></h3>
+<p>For my UI layer, I&rsquo;m using <strong>Preact</strong> instead of React. Note the all-important <strong>P</strong> here. This stands for <strong>petite</strong>, meaning Preact is a <em>petite</em> React. Essentially, it enables the same great developer experience of React, with the added benefit of getting to ship a much less bloated runtime to users.</p>
+<p>Preact accomplishes this by doing away with a lot of the React cruft, namely the <a href="https://reactjs.org/docs/events.html" target="_blank" rel="noreferrer noopener">reimplementation of every standard browser event into &ldquo;synthetic events&rdquo;</a>. Facebook had a good reason to do this for React: They wanted to support legacy Internet Explorer, for all the Facebook grannies and gramps out there.</p>
+<p>This is fine and well and &ldquo;noble&rdquo; I guess, but I think it&rsquo;s becoming rapidly unneeded to degrade your app by supporting legacy browsers. For the most part, everyone&rsquo;s switched to their phones, which usually come preinstalled with <em>evergreen</em> browsers like Chrome or Safari. Second, even if there are some stragglers out there on their old Gateway&rsquo;s running IE 6, we really need to draw the backwards-compatibility line <em>somewhere</em>, ideally before we go <a href="https://www.wired.com/2017/05/still-use-windows-xp-prepare-worst/" target="_blank" rel="noreferrer noopener">totally bonkers, like some people</a>. My deepest condolences go out to all the Gateway fans.</p>
+<h3 id="yarn-good-npm-bad">Yarn good, npm bad</h3>
+<p>I&rsquo;m using the <a href="https://yarnpkg.com/" target="_blank" rel="noreferrer noopener">Yarn command-line tool</a>, instead of the more popular <a href="https://docs.npmjs.com/cli/npm" target="_blank" rel="noreferrer noopener">npm</a>. I&rsquo;d really like to ask you all, <a href="https://iamturns.com/yarn-vs-npm-2018/" target="_blank" rel="noreferrer noopener">why are you still using npm in 2020?</a> Yarn has a much more pleasant-looking CLI (command-line interface, pronounced like CLEE!), and to me, still feels faster than npm. Have you ever really <em>looked</em> at the output that npm spews all over the sacred console? It&rsquo;s a disgrace. The colors were chosen seemingly at random, whenever it does <em>anything at all</em> it <strong>flashes</strong> and <strong>SCREECHES</strong>, and it draws all sorts of ASCII art rectangles whenever something needs an update.</p>
+<p>My complaints here seems arbitrary and stupid, and sure, I&rsquo;ll concede both of those points. However, to me, these things matter. I&rsquo;m a <em>&ldquo;visual person&rdquo;</em>, for whatever that&rsquo;s worth, so if I&rsquo;m going to pick a CLI to stare at all day for hours-on-end, it better not look like ass. Like npm. Yarn has subtle, soft colors, smoothly-animated progress spinners, and the lock files look a lot cleaner to my eyes. Of course, you should never look directly at the lock files with your unworthy human eyes, but sometimes I like to check up on what <strong>the machine</strong> is doing.</p>
+<p>Yes, it&rsquo;s maintained by Facebook, a <a href="https://www.theguardian.com/technology/2020/jul/10/facebook-ad-boycott-mark-zuckerberg-activism-change" target="_blank" rel="noreferrer noopener">very</a> <em><a href="https://www.theverge.com/2019/2/25/18229714/cognizant-facebook-content-moderator-interviews-trauma-working-conditions-arizona" target="_blank" rel="noreferrer noopener">not</a> <a href="https://www.motherjones.com/politics/2013/10/facebook-personal-data-online-privacy-social-norm/" target="_blank" rel="noreferrer noopener">good</a></em> company. But guess what? <a href="https://github.blog/2020-04-15-npm-has-joined-github/" target="_blank" rel="noreferrer noopener">npm</a> is owned by Microsoft now, and they are also an organization that will burn in the <a href="https://techcrunch.com/2019/11/13/github-faces-more-resignations-in-light-of-ice-contract/" target="_blank" rel="noreferrer noopener">corporate</a> <a href="https://www.theverge.com/2018/4/27/17293650/microsoft-recycler-jail-sentence-windows-software-counterfeiting-response" target="_blank" rel="noreferrer noopener">version</a> <a href="https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish" target="_blank" rel="noreferrer noopener">of hell</a>. It&rsquo;s 2020, and all your fav CLI tools are cancelled. Congrats!</p>
+<p><img src="sonic.jpg" alt="sonic"></p>
+<h3 id="pair-program-whenever-you-can">Pair program whenever you can</h3>
+<p>In the grand-scheme of things, you don&rsquo;t matter. I don&rsquo;t matter either. Do <a href="https://en.wikipedia.org/wiki/Pair_programming" target="_blank" rel="noreferrer noopener">pair programming</a>. Or, do the much more extreme, but still great in it&rsquo;s own way, <a href="https://mobprogramming.org/" target="_blank" rel="noreferrer noopener">mob programming</a>. I have enough pop-off energy on this subject to write an entire blog series on it, but I won&rsquo;t do that now. Instead, I&rsquo;ll keep this section relevant.</p>
+<p>I had an idea for something to implement - I wanted the COVID cases to <em>count up</em> over time, rather than immediately jump to the number on page load like it was doing before. My buddy was available to pair at the time, so we started working on the feature. I was a bit fried from it being 7pm after a long workday, and so was my co-programmer. However, we each melded our minds together to complete the feature. While we were both exhausted: I used my knowledge of the hooks API to get the timer itself working, and he used <em>deductive reasoning</em> to figure out that the animation should be <strong>exponential</strong>, rather than animate via pre-cached speeds like we had at first. The code we wrote that day is <a href="https://github.com/akc8012/gina-rona-app/blob/master/src/components/CaseCounter.tsx" target="_blank" rel="noreferrer noopener">right here</a>, and it really turned out great. I don&rsquo;t think it would have been possible using the traditional &ldquo;everybody split up!&rdquo; methodology of software development.</p>
+<p>A younger, less-mature me would have been bummed that I couldn&rsquo;t figure out the exponential animation by myself. Now, <strong>2020 Apocalypse Year Andrew</strong> knows better. I don&rsquo;t matter, and neither do you. The software matters. To make the best possible software, one must throw away their ego. Destroy your ego. Throw it in a box, and throw that box off a cliff. Into a fire. Acid fire. Where we&rsquo;re going, you won&rsquo;t be needing that.</p>
+<h3 id="parcel-good-webpack-bad">Parcel good, webpack bad</h3>
+<p>In the end, everything had to be bundled together. TypeScript had to be <em>transpiled</em> down to JavaScript, source-code minified, and assets included into in the mix. My bundler of choice was <a href="https://parceljs.org/" target="_blank" rel="noreferrer noopener">Parcel</a>, instead of the more popular <a href="https://webpack.js.org/" target="_blank" rel="noreferrer noopener">webpack</a>.</p>
+<p>Parcel is just webpack, but not a mess. I know it&rsquo;s comforting to use these &ldquo;super simple CLIs&rdquo; like create-react-app, preact-cli, or gatsby-cli, but I strongly advise you to reconsider. These all use webpack under the hood. Here&rsquo;s some recent <a href="https://www.youtube.com/watch?v=LyUN40weqIk" target="_blank" rel="noreferrer noopener">footage I found of the average webpack config file</a>.</p>
+<p>What does this mean for you? And why should you care? Well, let&rsquo;s say you want to customize something in the bundler configuration, anything at all. Want to use <a href="https://reasonml.github.io/" target="_blank" rel="noreferrer noopener">ReasonML</a> instead of TypeScript? Great, go nuts, I don&rsquo;t judge. Now, if you used create-react-app, you need to do something called <a href="https://create-react-app.dev/docs/available-scripts#npm-run-eject" target="_blank" rel="noreferrer noopener">ejecting</a>. This is the equivalent of slamming the eject button in a helicopter and tumbling out of the air unto your inevitable splat. Don&rsquo;t do this.</p>
+<p>Instead, just use Parcel. Parcel is more like&hellip; taking the train. It&rsquo;s pretty safe, <em>probably</em> not going to crash, and you don&rsquo;t have to pilot the damn thing. It just goes and goes, and all you&rsquo;ve got to do is remember your stop. It&rsquo;s a &ldquo;zero-config solution&rdquo;, or at least it tries it&rsquo;s darndest to be. If you&rsquo;ve got a TypeScript file, Parcel deduces that you like type-safety, so without any further developer action, it figures out how to transpile that for you. I think Parcel really <em>tied my whole app together</em>, and kept me sane while making it.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>I mostly focused on the technical stuff here, because it&rsquo;s what I&rsquo;m decent at, and it&rsquo;s fun. However, we should not lose sight of the person who brought us all together here today: <a href="https://www.instagram.com/govraimondo/" target="_blank" rel="noreferrer noopener">Gina Raimondo</a>. I hope all my bad internet posts catch her attention and annoy her. I encourage you to annoy her too. Please, actually, go do that. I think she is bad.</p>
+<p>If you live in the US, you most likely also have an incompetent governor who is floundering the response to COVID-19. I highly encourage you to <a href="https://github.com/akc8012/gina-rona-app" target="_blank" rel="noreferrer noopener"><em>fork me on GitHub!</em></a>, and make your very own web app to heckle local leaders with. They all could use a lot more of that these days.</p>
+
+</div>
+
+
+
+
+
+                
+                <div class="container">
+    <hr>
+</div>
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+<div class="container">
+    <hr>
+</div>
+
+                <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        This website is <a href="https://en.wikipedia.org/wiki/Free_software">free software</a>, and its source is available on <a href="https://github.com/akc8012/acolannino.io">GitHub</a>.
+    
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+        
+        
+
+
+<script src="http://acolannino.io/js/bundle.e6934e69d06bb8a213134f4c1468f9478bb7755e786dfb60e3c5a917c5335805.js" integrity="sha256-5pNOadBruKITE09MFGj5R4u3dV54bftg48WpF8UzWAU="></script>
+
+
+
+        
+        
+        
+        
+    </body>
+</html>
