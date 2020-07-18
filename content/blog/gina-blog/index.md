@@ -57,6 +57,7 @@ Preact accomplishes this by doing away with a lot of the React cruft, namely the
 
 This is fine and well and "noble" I guess, but I think it's becoming rapidly unneeded to degrade your app by supporting legacy browsers. For the most part, everyone's switched to their phones, which usually come preinstalled with *evergreen* browsers like Chrome or Safari. Second, even if there are some stragglers out there on their old Gateway's running IE 6, we really need to draw the backwards-compatibility line *somewhere*, ideally before we go [totally bonkers, like some people]. My deepest condolences go out to all the Gateway fans.
 
+
 ### yarn good, npm bad
 I'm using the yarn command-line tool, instead of the more popular npm. I'd really like to ask you all, [why are you still using npm in 2020?](https://iamturns.com/yarn-vs-npm-2018/) Yarn has a much more pleasant-looking CLI (command-line interface, pronounced like CLEE!), and to me, still feels faster than npm. Have you ever really *looked* at the output that npm spews all over the sacred console? It's a disgrace. The colors were chosen seemingly at random, whenever it does *anything at all* it **flashes** and **SCREECHES**, and it draws all sorts of ASCII rectangles whenever something needs an update.
 
@@ -65,4 +66,14 @@ My complaints here seems arbitrary and stupid, and sure, I'll concede both of th
 Yes, it's maintained by Facebook, a [very] *[not] [good]* company. But guess what? [npm] is owned by Microsoft now, and they are also an organization that will burn in the [corporate] [version] [of hell]. It's 2020, and all your fav CLI tools are cancelled. Congrats!
 
 ![sonic](sonic.jpg)
+
+
+### Pair program whenever you can
+In the grand-scheme of things, you don't matter. I don't matter either. Do [pair programming](https://en.wikipedia.org/wiki/Pair_programming). Or, do the much more extreme, but still great in it's own way, [mob programming](https://mobprogramming.org/). I have enough pop-off energy on this subject to write an entire blog series on it, but I won't do that now. Instead, I'll keep this section relevant.
+
+I had an idea for something to implement - I wanted the COVID cases to *count up* over time, rather than jump to the number on page load like it was doing before. My buddy was available to pair at the time, so we started working on the feature. I was a bit fried from it being 7pm after a long workday, and so was my co-programmer. However, we each melded our minds together to complete the feature. While we were both exhausted: I used my knowledge of the hooks API to get the timer itself working, and he used *deductive reasoning* to figure out that the animation should be **exponential**, rather than animate via pre-cached speeds like we had at first. The code we wrote that day is [right here](https://github.com/akc8012/gina-rona-app/blob/master/src/components/CaseCounter.tsx), and it really turned out great. I don't think it would have been possible using the traditional "everybody split up!" methodology of software development.
+
+A younger, less-mature me would have been bummed that I couldn't figure out the exponential animation by myself. Now, **2020 Apocalypse Year Andrew** knows better. I don't matter, and neither do you. The software matters. To make the best possible software, one must throw away their ego. Destroy your ego. Throw it in a box, and throw that box off a cliff. Into a fire. Acid fire. Where we're going, you won't be needing that.
+
+### Conclusion
 
