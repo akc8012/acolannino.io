@@ -1,7 +1,7 @@
 ---
 title: "How to harass your elected officials using TypeScript"
-date: 2020-07-17
-draft: true
+date: 2020-07-18
+draft: false
 ---
 
 Folks
