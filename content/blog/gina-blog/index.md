@@ -49,15 +49,11 @@ My point with this big long anecdote is: Fight for the technology that you think
 
 
 ### Going nuts with it and doing whatever - Why I'm using **Preact** instead of **React**
-Unlike React, Preact will not work on granny's web browser. More on that later.
+For my UI layer, I'm using **Preact** instead of React. Note the all-important **P** here. This stands for **petite**, meaning Preact is a *petite* React. Essentially, it enables the same great developer experience of React, with the added benefit of getting to ship a much less bloated runtime to users.
 
-Preact is also not maintained by Facebook, *The Evil Corp™*. Instead, Preact is maintained instead by, uh... [some dude]? And has some [mysterious corporate backers]. So this is better, I think? 
+Preact accomplishes this by doing away with a lot of the React cruft, namely the [reimplementation of every standard browser event into "synthetic events"](https://reactjs.org/docs/events.html). Facebook had a good reason to do this for React: They wanted to support legacy Internet Explorer, for all the Facebook grannies and gramps out there.
 
-Anyway, not the point. I'm using Preact instead of React because of the all-important **P**. This stands for **petite**, meaning Preact is a *petite* React. Essentially it enables the same great developer experience of React, with the added benefit of getting to ship a much less bloated runtime to users.
-
-Preact accomplishes this by doing away with a lot of the React cruft, namely the [reimplementation of every standard browser event into "synthetic events"]. Facebook had a good reason to do this for React: They wanted to support legacy Internet Explorer, for all the Facebook grannies and gramps out there.
-
-This is fine and well and "noble" I guess, but I think it's becoming rapidly unneeded to degrade your app by supporting legacy browsers. For the most part, everyone's switched to their phones, which usually come preinstalled with *evergreen* browsers like Chrome or Safari. Second, even if there are some stragglers out there on their old Gateway's running IE 6, we really need to draw the backwards-compatibility line *somewhere*, ideally before we go [totally bonkers, like some people]. My deepest condolences go out to all the Gateway fans.
+This is fine and well and "noble" I guess, but I think it's becoming rapidly unneeded to degrade your app by supporting legacy browsers. For the most part, everyone's switched to their phones, which usually come preinstalled with *evergreen* browsers like Chrome or Safari. Second, even if there are some stragglers out there on their old Gateway's running IE 6, we really need to draw the backwards-compatibility line *somewhere*, ideally before we go [totally bonkers, like some people](https://www.wired.com/2017/05/still-use-windows-xp-prepare-worst/). My deepest condolences go out to all the Gateway fans.
 
 
 ### Yarn good, npm bad
