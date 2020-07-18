@@ -73,7 +73,7 @@ A younger, less-mature me would have been bummed that I couldn't figure out the 
 
 
 ### Parcel good, webpack bad
-In the end, everything had to be bundled together. TypeScript had to be *transpiled* down to JavaScript, source-code minified, and assets included into in the mix. My bundler of choice was [Parcel](https://parceljs.org/), instead of the more popular [webpack](https://webpack.js.org/).
+In the end, everything had to be bundled together. TypeScript had to be *transpiled* down to JavaScript, source-code minified, and assets included into the mix. My bundler of choice was [Parcel](https://parceljs.org/), instead of the more popular [webpack](https://webpack.js.org/).
 
 Parcel is just webpack, but not a mess. I know it's comforting to use these "super simple CLIs" like create-react-app, preact-cli, or gatsby-cli, but I strongly advise you to reconsider. These all use webpack under the hood. Here's some recent [footage I found of the average webpack config file](https://www.youtube.com/watch?v=LyUN40weqIk).
 
