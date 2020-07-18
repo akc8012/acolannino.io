@@ -46,7 +46,7 @@ Even though they did half the project in TypeScript, they were forced to strip a
 My point with this big long anecdote is: Fight for the technology that you think is best. In this case, the people in this story *did* fight to use TypeScript, and still lost. Management sided with the executive here, and that's a shame. Thankfully for me however, my bad web app is a purely personal project, so I can just go nuts with it and do whatever.
 
 
-#### Going nuts with it and doing whatever - Why I'm using **Preact** instead of **React**
+### Going nuts with it and doing whatever - Why I'm using **Preact** instead of **React**
 Unlike React, Preact will not work on granny's web browser. More on that later.
 
 Preact is also not maintained by Facebook, *The Evil Corp™*. Instead, Preact is maintained instead by, uh... [some dude]? And has some [mysterious corporate backers] so that's better, I think? 
@@ -57,8 +57,12 @@ Preact accomplishes this by doing away with a lot of the React cruft, namely the
 
 This is fine and well and "noble" I guess, but I think it's becoming rapidly unneeded to degrade your app by supporting legacy browsers. For the most part, everyone's switched to their phones, which usually come preinstalled with *evergreen* browsers like Chrome or Safari. Second, even if there are some stragglers on their old Gateway's running IE 6, we really need to draw the backwards-compatibility line *somewhere*, ideally before we go [totally bonkers], like some people. My deepest condolences go out to all the Gateway fans.
 
-#### yarn good, npm bad
-I'm using the yarn command-line tool, instead of the more popular npm. I'd really like to ask you all, [why are you still using npm in 2020?](https://iamturns.com/yarn-vs-npm-2018/) Yarn has a much more pleasant-looking CLI (command-line interface), and to me, still feels faster than npm. Yes, it's maintained by Facebook, a [very] *[not] [good]* company. But guess what? [npm] is owned by Microsoft now, and they are also an organization that will burn in the [corporate] [version] [of hell]. It's 2020, and all your fav CLI tools are cancelled. Congrats!
+### yarn good, npm bad
+I'm using the yarn command-line tool, instead of the more popular npm. I'd really like to ask you all, [why are you still using npm in 2020?](https://iamturns.com/yarn-vs-npm-2018/) Yarn has a much more pleasant-looking CLI (command-line interface, pronounced like CLEE!), and to me, still feels faster than npm. Have you ever really *looked* at the output spewed by npm all over the sacred console? It's a disgrace. The colors were chosen seemingly at random, when it does anything it **flashes** and **SCREECHES**, and draws all sorts of ASCII rectangles whenever something needs an update, for some *ungodly* reason.
+
+My complaints here seems arbitrary and stupid, and sure, I'll concede both of those points. However, to me, these things matter. I'm a *visual person*, for whatever that's worth, so if I'm going to pick a CLI to stare at all day for hours-on-end, it better not look like ass. Like npm. Yarn has subtle, soft colors, *animated* progress spinners, and the lock files look a lot cleaner to my eyes. Of course you should never look at the lock files with your unworthy *human eyes*, but sometimes I like to check up on what the machine is doing.
+
+Yes, it's maintained by Facebook, a [very] *[not] [good]* company. But guess what? [npm] is owned by Microsoft now, and they are also an organization that will burn in the [corporation] [version] [of hell]. It's 2020, and all your fav CLI tools are cancelled. Congrats!
 
 ![sonic](sonic.jpg)
 
